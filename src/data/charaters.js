@@ -79,7 +79,7 @@ const characters = [
     {
       id: 12,
       name: "Hawkeye",
-      image: "marvel-project\images\Clint Barton _ Hawkeye - Jeremy Renner.jpg",
+      image: "images/Clint Barton _ Hawkeye - Jeremy Renner.jpg",
       species: "Human",
       affiliation: "Avengers",
     },
