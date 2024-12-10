@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import SearchBar from './SearchBar';
 import CharacterCard from './CharacterCard';
-import characters from '../characters';
+import characters from "../data/characters.js";
+
 
 const CharacterList = () => {
   const [searchQuery, setSearchQuery] = useState('');

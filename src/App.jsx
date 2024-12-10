@@ -1,11 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import CharacterList from './components/CharacterList';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-  )
-}
+    <div className="app">
+      <h1>Marvel Characters</h1>
+      <CharacterList />
+    </div>
+  );
+};
 
-export default App
+export default App;
